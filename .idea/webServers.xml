@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7782813c-afd2-4514-8d1d-795dbe79df68" name="ucloud">
+        <fileTransfer accessType="SFTP" host="ssh.cloud.sdu.dk" port="2359" sshConfigId="feb5554c-4dac-4e66-9e3d-56f23aadb258" sshConfig="ucloud@ssh.cloud.sdu.dk:2359 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

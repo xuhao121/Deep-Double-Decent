@@ -1,0 +1,3 @@
+curve,interp_thr_1pct,interp_thr_10pct,peak_k,peak_err,peak_std,valley_k,valley_err,prominence,significant,peak_minus_thr_steps,final_err_kmax
+final,12,12,10.0,0.64998,0.005214115457102916,6.0,0.63628,0.013700000000000045,True,-1.0,0.40426
+early stopped,12,12,,,,,,0.0,False,,0.40069999999999995

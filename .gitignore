@@ -1,0 +1,13 @@
+# large or machine-specific files (NOT committed)
+data/
+outputs/
+logs/
+jobs/
+orig_data/
+timing/
+runs_test.csv
+*.tmp
+.venv/
+__pycache__/
+*.pyc
+# committed on purpose: runs.csv, timing.json, labels/, results/, figures/, tables/, notes/

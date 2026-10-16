@@ -1,0 +1,63 @@
+{
+  "config": {
+    "run_id": "cnn_c10_p20_ns1_k032_s1_n6250_aug1_wd0",
+    "exp": "R12",
+    "owner": "m2",
+    "priority": "P1",
+    "model": "mcnn",
+    "dataset": "cifar10",
+    "k": 32,
+    "noise": 0.2,
+    "noise_seed": 1,
+    "init_seed": 1,
+    "subset_seed": 1,
+    "n": 6250,
+    "aug": 1,
+    "opt": "sgd",
+    "lr": 0.1,
+    "momentum": 0.0,
+    "wd": 0.0,
+    "sched": "invsqrt",
+    "budget_unit": "steps",
+    "budget": 500000,
+    "batch_size": 128,
+    "est_hours": 0.272,
+    "status": "todo"
+  },
+  "git_commit": null,
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA B200",
+  "host": "j-12415918-job-0",
+  "cuda_visible_devices": "GPU-b887cdf4-f601-f229-6cb6-d67867be093a",
+  "n_params": 391946,
+  "label_file": "cifar10_p20_ns1.npz",
+  "label_sha256": "2c8e8a72f886a1a1cfa216e4535cebb8712fdb7f33ca605a98a2cd7460d0bcd9",
+  "subset_file": "cifar10_perm_ss1.npy",
+  "subset_sha256": "b625ec4e96a06af60c23fe06e11510cb0c3917b418b2528e600aeadc024738b3",
+  "realized_noise_rate": 0.1992,
+  "amp_bf16": true,
+  "compile": "none",
+  "steps_per_epoch": 49,
+  "n_eval_points": 103,
+  "finished": true,
+  "started": "2026-10-08 14:32:45",
+  "sessions": [
+    {
+      "start": "2026-10-08 14:32:45",
+      "epoch": 0,
+      "step": 0
+    }
+  ],
+  "finished_at": "2026-10-08 15:10:01",
+  "train_hours": 0.621,
+  "final_metrics": {
+    "train_err": 0.0,
+    "train_loss": 0.00021139691114425662,
+    "clean_part_err": 0.0,
+    "noisy_memorized": 1.0,
+    "noisy_true": 0.0,
+    "test_err": 0.38169997930526733,
+    "test_loss": 1.928020593261719
+  }
+}

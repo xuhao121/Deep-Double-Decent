@@ -1,0 +1,63 @@
+{
+  "config": {
+    "run_id": "r18_c10_p15_ns0_k006_s4",
+    "exp": "R5",
+    "owner": "m1",
+    "priority": "P1",
+    "model": "resnet18k",
+    "dataset": "cifar10",
+    "k": 6,
+    "noise": 0.15,
+    "noise_seed": 0,
+    "init_seed": 4,
+    "subset_seed": 0,
+    "n": 50000,
+    "aug": 1,
+    "opt": "adam",
+    "lr": 0.0001,
+    "momentum": 0.0,
+    "wd": 0.0,
+    "sched": "const",
+    "budget_unit": "epochs",
+    "budget": 4000,
+    "batch_size": 128,
+    "est_hours": 1.142,
+    "status": "todo"
+  },
+  "git_commit": null,
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA B200",
+  "host": "j-12412656-job-0",
+  "cuda_visible_devices": "GPU-2364fc7e-5d6e-ea66-3139-26c98df619eb",
+  "n_params": 99352,
+  "label_file": "cifar10_p15_ns0.npz",
+  "label_sha256": "b4a742523457ffb154159d63ad91c5fc649e7476ee8aaac2bdb2ebce37afb8a2",
+  "subset_file": null,
+  "subset_sha256": null,
+  "realized_noise_rate": 0.15108,
+  "amp_bf16": true,
+  "compile": "none",
+  "steps_per_epoch": 391,
+  "n_eval_points": 290,
+  "finished": true,
+  "started": "2026-10-07 03:11:10",
+  "sessions": [
+    {
+      "start": "2026-10-07 03:11:10",
+      "epoch": 0,
+      "step": 0
+    }
+  ],
+  "finished_at": "2026-10-07 06:03:36",
+  "train_hours": 2.874,
+  "final_metrics": {
+    "train_err": 0.20773999392986298,
+    "train_loss": 0.6889124694824219,
+    "clean_part_err": 0.10095179080963135,
+    "noisy_memorized": 0.19221605360507965,
+    "noisy_true": 0.6175536513328552,
+    "test_err": 0.24219998717308044,
+    "test_loss": 0.7988413208007813
+  }
+}

@@ -1,0 +1,3 @@
+k,interp_epoch,train_below_10pct_epoch,train_err_at_test_peak,memorized_at_test_peak,min1_tick,min1_err,peak_tick,peak_err,final_err,rise,second_descent
+20,1550.0,180.0,0.09204,0.737268,34,0.1958,205,0.2975,0.2658,0.10169999999999998,0.031700000000000006
+64,280.0,64.0,0.09134,0.792491,17,0.1555,70,0.2651,0.1875,0.1096,0.0776

@@ -1,0 +1,7 @@
+# Install PyTorch first, with a CUDA build that supports Blackwell / B200 (CUDA >= 12.8), e.g.
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+scipy>=1.11
+tabulate        # optional: Markdown versions of the tables in tables/*.md
